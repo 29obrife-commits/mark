@@ -1,0 +1,22 @@
+<!doctype HTML>
+<html>
+  <head>
+    <!-- A-Frame -->
+    <script src="https://aframe.io/releases/1.7.0/aframe.min.js"></script>
+
+    <!-- AR.js (stable version) -->
+    <script src="https://cdn.jsdelivr.net/npm/ar.js@3.4.4/aframe/build/aframe-ar.js"></script>
+  </head>
+
+  <body>
+    <a-scene embedded arjs>
+     
+      <!-- Marker 1 -->
+      <a-marker type="pattern" url="">
+        <a-box color="green" position="0 0.5 0"></a-box>
+      </a-marker>
+      <!-- Camera -->
+      <a-entity camera></a-entity>
+    </a-scene>
+  </body>
+</html>
